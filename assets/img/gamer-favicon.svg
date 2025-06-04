@@ -1,0 +1,40 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular con gradiente -->
+  <defs>
+    <radialGradient id="bgGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#4c1d95"/>
+      <stop offset="100%" style="stop-color:#1e1b4b"/>
+    </radialGradient>
+    <linearGradient id="controllerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#0891b2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo -->
+  <circle cx="16" cy="16" r="16" fill="url(#bgGradient)"/>
+  
+  <!-- Control de videojuego simplificado -->
+  <g transform="translate(6, 10)">
+    <!-- Cuerpo principal del control -->
+    <rect x="2" y="4" width="16" height="8" rx="4" fill="url(#controllerGradient)"/>
+    
+    <!-- Extensiones laterales (agarres) -->
+    <ellipse cx="2" cy="8" rx="2" ry="4" fill="url(#controllerGradient)"/>
+    <ellipse cx="18" cy="8" rx="2" ry="4" fill="url(#controllerGradient)"/>
+    
+    <!-- Botones direccionales (D-pad) -->
+    <rect x="5" y="6" width="1.5" height="4" rx="0.5" fill="white" opacity="0.9"/>
+    <rect x="4" y="7" width="3.5" height="1.5" rx="0.5" fill="white" opacity="0.9"/>
+    
+    <!-- Botones de acción -->
+    <circle cx="13" cy="6.5" r="1" fill="white" opacity="0.9"/>
+    <circle cx="15" cy="7.5" r="1" fill="white" opacity="0.9"/>
+    
+    <!-- Detalles adicionales -->
+    <rect x="8" y="7" width="6" height="1.5" rx="0.75" fill="white" opacity="0.3"/>
+  </g>
+  
+  <!-- Efecto de brillo sutil -->
+  <circle cx="16" cy="16" r="15" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+</svg>
