@@ -9,7 +9,6 @@ Requerimientos:
 4. Hacer funcionar los botones de + y - para aumentar y disminuir la cantidad de productos.
 
 
-Se creó la página en github pages, es (página)
 
 Se observa: <img src="assets/img/Print-calculadora.png" alt="Print-calculadora-creada"/>
 
